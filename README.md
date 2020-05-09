@@ -5,8 +5,9 @@ giaogiao.py中包含四个子模块：
 - 转换器（Converter）
 - 索引器（Indexer）
 - 搜索器（Searcher）
+
 每个模块可独立运行也可配合完成任务，模块启动需要一个配置文件，使用giaogiao内置的Engine模块初始化其他模块，其配置文件格式如下：
-```
+```ini
 ; downloader模块 ==============================================
 [downloader]
 ; 是否需要加载该模块 [true/false]
@@ -53,6 +54,3 @@ interractive=false
 ; 是否需要加载该模块 [true/false]
 enable=false
 ```
-
-以下是下载器结构图
-
